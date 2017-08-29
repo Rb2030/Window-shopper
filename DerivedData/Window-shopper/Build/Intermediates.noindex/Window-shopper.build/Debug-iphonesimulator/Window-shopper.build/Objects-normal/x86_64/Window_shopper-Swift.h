@@ -202,10 +202,9 @@ SWIFT_CLASS("_TtC14Window_shopper11AppDelegate")
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC14Window_shopper14ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC14Window_shopper6MainVC")
+@interface MainVC : UIViewController
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
