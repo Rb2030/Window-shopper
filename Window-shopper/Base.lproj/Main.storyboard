@@ -20,13 +20,32 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperBG" translatesAutoresizingMaskIntoConstraints="NO" id="ASu-Cg-qiJ">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="windowShopperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="I7a-tw-2uJ">
-                                <rect key="frame" x="154" y="70" width="67" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="I7a-tw-2uJ">
+                                <rect key="frame" x="157.5" y="70" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="HBq-Cw-P1S"/>
+                                    <constraint firstAttribute="height" constant="60" id="mHU-qG-Up9"/>
+                                </constraints>
                             </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gqE-Bn-Jq2">
+                                <rect key="frame" x="64" y="196" width="253" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3iH-XP-03N">
+                                <rect key="frame" x="139" y="298" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="I7a-tw-2uJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="NDG-BQ-xjI"/>
+                            <constraint firstItem="I7a-tw-2uJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q4i-Cz-GV2"/>
                             <constraint firstItem="ASu-Cg-qiJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cb9-J4-Ztd"/>
                             <constraint firstItem="ASu-Cg-qiJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dj4-g6-zH7"/>
                             <constraint firstItem="ASu-Cg-qiJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="iqi-gk-9Jl"/>

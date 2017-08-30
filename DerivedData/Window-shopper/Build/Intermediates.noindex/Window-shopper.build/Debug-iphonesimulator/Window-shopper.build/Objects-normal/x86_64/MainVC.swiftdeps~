@@ -1,14 +1,14 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "MAinVC"
+- "MainVC"
 provides-nominal:
-- "14Window_shopper6MAinVCC"
+- "14Window_shopper6MainVCC"
 provides-member:
-- ["14Window_shopper6MAinVCC", ""]
+- ["14Window_shopper6MainVCC", ""]
 provides-dynamic-lookup:
 - "viewDidLoad"
 depends-top-level:
-- "MAinVC"
+- "MainVC"
 - "UIViewController"
 depends-member:
 - !private ["s7CVarArgP", "init"]
@@ -26,9 +26,9 @@ depends-member:
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", ""]
-- ["14Window_shopper6MAinVCC", "deinit"]
-- ["14Window_shopper6MAinVCC", "init"]
-- ["14Window_shopper6MAinVCC", "viewDidLoad"]
+- ["14Window_shopper6MainVCC", "deinit"]
+- ["14Window_shopper6MainVCC", "init"]
+- ["14Window_shopper6MainVCC", "viewDidLoad"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", ""]
@@ -75,7 +75,7 @@ depends-nominal:
 - "s23CustomStringConvertibleP"
 - "s9EquatableP"
 - "s8HashableP"
-- "14Window_shopper6MAinVCC"
+- "14Window_shopper6MainVCC"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
@@ -115,4 +115,4 @@ depends-external:
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "5be98a5808d4c8cf5283f2c047326ba6"
+interface-hash: "09d536643353c7367826d4da93584381"
