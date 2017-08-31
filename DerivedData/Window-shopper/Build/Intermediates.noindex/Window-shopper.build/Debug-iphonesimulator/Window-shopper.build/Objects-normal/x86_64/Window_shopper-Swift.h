@@ -204,6 +204,7 @@ SWIFT_CLASS("_TtC14Window_shopper11AppDelegate")
 
 SWIFT_CLASS("_TtC14Window_shopper16CurrencyTxtField")
 @interface CurrencyTxtField : UITextField
+- (void)awakeFromNib;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

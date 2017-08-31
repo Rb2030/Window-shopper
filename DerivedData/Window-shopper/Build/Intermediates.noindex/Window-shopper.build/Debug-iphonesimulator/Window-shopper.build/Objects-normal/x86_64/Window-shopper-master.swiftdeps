@@ -1,7 +1,7 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.63.10 clang-900.0.36)"
 options: "dfb4333e0eb8d68e698b9464cbad95ec"
-build_time: [1504033100, 589637000]
+build_time: [1504208835, 393405000]
 inputs:
-  "/Users/Ross/Desktop/Swift_Work/Window-shopper/Window-shopper/Views/CurrencyTxtField.swift": [9223372036, 854775807]
+  "/Users/Ross/Desktop/Swift_Work/Window-shopper/Window-shopper/Views/CurrencyTxtField.swift": [1504208833, 0]
   "/Users/Ross/Desktop/Swift_Work/Window-shopper/Window-shopper/Controller/MainVC.swift": [1504031534, 0]
   "/Users/Ross/Desktop/Swift_Work/Window-shopper/Window-shopper/AppDelegate.swift": [1504029096, 0]
